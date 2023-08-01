@@ -1,0 +1,110 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+header {
+    background-color: maroon;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-btn,
+  .signup-btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  
+  .login-btn:hover,
+  .signup-btn:hover {
+    background-color: #ddd;
+  }
+
+  /*#hero{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 200vh;
+    background-image:  url("hero bg.jpg");
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    background-attachment: fixed;
+    gap: 16px;
+    
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0.0.6);
+    transition-duration : 300;
+    opacity: 0;
+    inset: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    backdrop-filter: brightness 50;
+    background-image: url(hero\ bg.jpg);
+  }
+
+.hero-overlay:hover{
+    opacity: 0.6;
+}
+
+  .hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 8;
+  }*/
